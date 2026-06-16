@@ -1,0 +1,19 @@
+# Secrets & credentials — NEVER commit these
+.env
+credentials.json
+token.json
+*.pem
+
+# Temporary / regenerable processing files
+.tmp/*
+!.tmp/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
